@@ -1,4 +1,4 @@
-![Shop Sallh](Gemini_Generated_Image_owl2ccowl2ccowl2 (1).png)
+![Shop Sallh](image2.png)
 
 # Shop Sallh – Modern E-Commerce App  
 ### Built with Flutter + REST API  
