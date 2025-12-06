@@ -1,3 +1,5 @@
+![Shop Sallh](Gemini_Generated_Image_t6br0qt6br0qt6br.png)
+
 # Shop Sallh – Modern E-Commerce App  
 ### Built with Flutter + REST API  
 ### Developed by **Ahmed Aljbry**
@@ -19,7 +21,7 @@ The app features smooth UI, full shopping flow, authentication, and scalable arc
 - Browse product categories  
 - View products per category  
 - Responsive grid layout  
-- Product details page  
+- Product details page:
   - Image  
   - Price  
   - Description  
@@ -53,10 +55,10 @@ The app features smooth UI, full shopping flow, authentication, and scalable arc
 |-----------|----------|
 | **Flutter** | Mobile UI / app development |
 | **Dart** | Programming language |
-| **REST API** | Fetch products, login, and order creation |
+| **REST API** | Backend communication |
 | **HTTP / Dio** | API client |
 | **Provider / Riverpod / Bloc** | State management |
-| **Shared Preferences** | Local saved data (cart, token) |
+| **Shared Preferences** | Local storage (token, cart) |
 
 ---
 
@@ -68,10 +70,12 @@ lib/
     config/          # API endpoints
     constants/       # Colors, styles
     utils/           # Helpers, validators
+
   data/
     models/          # Product, user, order models
     services/        # API services
     repository/      # Data access layer
+
   features/
     auth/
     home/
@@ -80,5 +84,6 @@ lib/
     cart/
     checkout/
     profile/
+
   app.dart
   main.dart
